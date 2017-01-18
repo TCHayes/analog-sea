@@ -53,6 +53,10 @@ button {
   font-size: 20px;
 }
 
+button:hover {
+  background-color: darkgreen;
+}
+
 .forgot-pass {
   margin: 0px;
   text-align: center;
