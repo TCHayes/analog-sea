@@ -2,7 +2,13 @@
   font-family: 'Roboto', sans-serif;
 }
 
+header {
+  text-align: center;
+}
+
 header img {
+  padding-top: 45px;
+  padding-bottom: 30px;
   height: 35px;
 }
 
@@ -11,6 +17,9 @@ body {
 }
 
 .signup-form {
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
   padding-left: 40px;
   padding-right: 40px;
   padding-bottom: 40px;
@@ -19,11 +28,16 @@ body {
   width: 320px;
 }
 
-fieldset {
-  border: none;
+legend {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  font-size: 35px;
 }
 
 input, button {
+  margin-top: 20px;
+  margin-bottom: 20px;
   border: 2px solid lightgray;
   border-radius: 3px;
   padding: 15px;
@@ -32,9 +46,16 @@ input, button {
 }
 
 button {
+  border: none;
+  width: 320px;
   background-color: lightgreen;
   color: white;
   font-size: 20px;
+}
+
+.forgot-pass {
+  margin: 0px;
+  text-align: center;
 }
 
 .forgot-pass a {
@@ -43,6 +64,7 @@ button {
 
 .existing-user-question {
   color: white;
+  text-align: center;
 }
 
 .existing-user-question a {
